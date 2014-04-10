@@ -1,4 +1,5 @@
 <?php
+//определение const ROOT
 define('ROOT', dirname(dirname(__FILE__)));
 $queryString = $_SERVER['QUERY_STRING'];
 require_once ROOT . DIRECTORY_SEPARATOR . 'Library' . DIRECTORY_SEPARATOR . 'FrontController.php';// подключает файл Library/FrontController.php
